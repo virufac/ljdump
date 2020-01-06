@@ -15,6 +15,8 @@ In that template file, you can see that I'm using some bootstrap classes in my p
 
 I hate to say it but for all the xml data has on it, those were the only things I found worth salvaging.
 
+When its finished it will dump the entire journal as a single json file as well, which is so much better for me at least...
+
 #### in pace requiescat, livejournal.
 
 
