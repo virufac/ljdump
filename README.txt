@@ -1,4 +1,31 @@
-ljdump - livejournal archiver
+
+## ljdump with xmlread - output LJ archives to template html
+### (by fork maintainer)
+
+When many other LJ archiving tools went proprietary or were shut down by rate limiting, this tool stood the test of time and still works to this day as far as I know. It's been less than a year since I've used it, I think.
+
+Since using this tool from my youth and learning to program a bit, I've come to address a few of its problems... At least the ones that I had.
+
+Shitty XML files -- not the author's fault. XML files are innately trash. :P.
+Unreliable encoding. Reliance on Wordpress to fix it. I say this with the greatest respect. This tool is efficient and merely need something like this template builder.
+
+You can transform xml to html with a simple template like posttemp.html. See the screencaps directory.
+
+In that template file, you can see that I'm using some bootstrap classes in my post. But they're not important. `$TIME`, `$DATE`, `$POST` -- these are the placeholders that insert the data from the xml.
+
+I hate to say it but for all the xml data has on it, those were the only things I found worth salvaging.
+
+#### in pace requiescat, livejournal.
+
+
+--
+
+(BTW if you are looking for support trying to use this tool and are not having luck contacting the original programmer, let me know. My python2 is not the best but I can probably figure it out. I deleted my LJs a while back when the Russian Oh No They Didn't invasion was complete. )
+
+=================================
+
+## ljdump - livejournal archiver
+### (by original coder at the the original repo)
 
 This program reads the journal entries from a livejournal (or compatible)
 blog site and archives them in a subdirectory named after the journal name.
